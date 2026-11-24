@@ -6,7 +6,7 @@ Your job pings a URL when it runs. If the ping doesn't arrive on time,
 Tockward alerts you by email or Telegram.
 
 ```sh
-curl -fsS https://ping.tockward.com/<your-id>
+curl -fsS https://ping.tockward.com/v1/beat/<token>
 ```
 
 - Cron jobs, backups, scheduled tasks, CI pipelines
